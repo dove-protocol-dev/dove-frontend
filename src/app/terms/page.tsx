@@ -11,11 +11,11 @@ export default function Terms() {
                     1. Introduction and Acceptance
                 </h2>
                 <p>
-                    These Terms of Service ("Terms") govern your access to and use of
-                    this website (the "Interface"), hosted by an individual or
-                    organization ("Provider"), which provides access to the
-                    decentralized Protocol (the "Protocol"). By using the Interface, you
-                    agree to be bound by these Terms.
+                    These Terms of Service (&ldquo;Terms&rdquo;) govern your access to
+                    and use of this website (the &ldquo;Interface&rdquo;), hosted by an
+                    individual or organization (&ldquo;Provider&rdquo;), which provides
+                    access to the decentralized Protocol (the &ldquo;Protocol&rdquo;).
+                    By using the Interface, you agree to be bound by these Terms.
                 </p>
             </section>
 
@@ -32,14 +32,15 @@ export default function Terms() {
                 <p>
                     The Interface is not available to users located in, established in,
                     or residents of the United States, the Republic of China, Singapore,
-                    Myanmar (Burma), Côte d'Ivoire (Ivory Coast), Cuba, Crimea and
+                    Myanmar (Burma), C&ocirc;te d'Ivoire (Ivory Coast), Cuba, Crimea and
                     Sevastopol, Democratic Republic of Congo, Iran, Iraq, Libya, Mali,
-                    Nicaragua, Democratic People's Republic of Korea (North Korea),
-                    Somalia, Sudan, Syria, Yemen, Zimbabwe, or any other state, country
-                    or region subject to sanctions enforced by the United States, the
-                    United Kingdom or the European Union ("Restricted Jurisdictions").
-                    By using the Interface, you represent that you are not located in,
-                    established in, or a resident of any Restricted Jurisdiction.
+                    Nicaragua, Democratic People&rsquo;s Republic of Korea (North
+                    Korea), Somalia, Sudan, Syria, Yemen, Zimbabwe, or any other state,
+                    country or region subject to sanctions enforced by the United
+                    States, the United Kingdom or the European Union (&ldquo;Restricted
+                    Jurisdictions&rdquo;). By using the Interface, you represent that
+                    you are not located in, established in, or a resident of any
+                    Restricted Jurisdiction.
                 </p>
                 <br />
                 <p>
@@ -73,9 +74,9 @@ export default function Terms() {
                     liable for any damages, claims, or losses arising from or in
                     connection with your use of the Interface or interaction with the
                     Protocol, including but not limited to any losses related to your
-                    digital assets. The Interface is provided "as-is" without warranties
-                    of any kind. You release the Provider from all liability in
-                    connection with your use of the Interface.
+                    digital assets. The Interface is provided &ldquo;as-is&rdquo;
+                    without warranties of any kind. You release the Provider from all
+                    liability in connection with your use of the Interface.
                 </p>
             </section>
 
