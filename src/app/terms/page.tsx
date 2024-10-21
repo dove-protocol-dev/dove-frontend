@@ -32,11 +32,11 @@ export default function Terms() {
                 <p>
                     The Interface is not available to users located in, established in,
                     or residents of the United States, the Republic of China, Singapore,
-                    Myanmar (Burma), C&ocirc;te d'Ivoire (Ivory Coast), Cuba, Crimea and
-                    Sevastopol, Democratic Republic of Congo, Iran, Iraq, Libya, Mali,
-                    Nicaragua, Democratic People&rsquo;s Republic of Korea (North
-                    Korea), Somalia, Sudan, Syria, Yemen, Zimbabwe, or any other state,
-                    country or region subject to sanctions enforced by the United
+                    Myanmar (Burma), C&ocirc;te d&rsquo;Ivoire (Ivory Coast), Cuba,
+                    Crimea and Sevastopol, Democratic Republic of Congo, Iran, Iraq,
+                    Libya, Mali, Nicaragua, Democratic People&rsquo;s Republic of Korea
+                    (North Korea), Somalia, Sudan, Syria, Yemen, Zimbabwe, or any other
+                    state, country or region subject to sanctions enforced by the United
                     States, the United Kingdom or the European Union (&ldquo;Restricted
                     Jurisdictions&rdquo;). By using the Interface, you represent that
                     you are not located in, established in, or a resident of any
