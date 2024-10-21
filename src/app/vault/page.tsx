@@ -241,12 +241,13 @@ export default function Page() {
                         </HeaderButton>
                         <RefreshButton
                             loading={
-                                debt === undefined ||
-                                rewards === undefined ||
-                                collateralValue === undefined ||
-                                position === undefined ||
-                                world === undefined ||
-                                worldCache?.vaultRewardsPercentage === undefined
+                                !error &&
+                                (debt === undefined ||
+                                    rewards === undefined ||
+                                    collateralValue === undefined ||
+                                    position === undefined ||
+                                    world === undefined ||
+                                    worldCache?.vaultRewardsPercentage === undefined)
                             }
                             refresh={refresh}
                         />

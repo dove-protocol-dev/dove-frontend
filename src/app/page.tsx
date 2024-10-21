@@ -2,7 +2,7 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { ExternalLink } from "lucide-react";
 import BuildInfo from "@/components/interface/build-info";
-import Image from "next/image";
+import Image from "next-image-export-optimizer";
 
 import doveCover from "@/images/dove_cover.png";
 import doveUpright from "@/images/dove_upright.png";
@@ -202,7 +202,7 @@ export default function Home() {
                                         "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB"
                                     }
                                 >
-                                    <Button className="w-full h-14 lg:h-auto rounded-full py-3 px-6 text-lg">
+                                    <Button className="w-full h-14 lg:h-auto rounded-full py-3 px-6 text-lg bg-foreground text-background">
                                         Swap for DOVE
                                     </Button>
                                 </JupiterLink>

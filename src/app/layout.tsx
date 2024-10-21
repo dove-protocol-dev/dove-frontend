@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import localFont from "next/font/local";
 import "./globals.css";
 import Header from "@/app/header";
 import { CacheProvider } from "@/components/providers/cache-provider";
@@ -7,8 +7,8 @@ import { WalletProvider } from "@/components/providers/wallet-provider";
 import { RPC_URL } from "@/lib/constants";
 import { DoveProvider } from "@/components/providers/dove-provider";
 import { LedgerProvider } from "@/components/providers/ledger-provider";
-const font = Inter({
-    subsets: ["latin"]
+const font = localFont({
+    src: "../fonts/Inter.woff2"
 });
 
 export const metadata: Metadata = {

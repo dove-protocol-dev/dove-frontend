@@ -208,10 +208,11 @@ export default function Page() {
                         </HeaderButton>
                         <RefreshButton
                             loading={
-                                total === undefined ||
-                                rewards === undefined ||
-                                savingsRatePercentage === undefined ||
-                                worldCache?.savingsRewardsPercentage === undefined
+                                !cacheError &&
+                                (total === undefined ||
+                                    rewards === undefined ||
+                                    savingsRatePercentage === undefined ||
+                                    worldCache?.savingsRewardsPercentage === undefined)
                             }
                             refresh={cacheRefresh}
                         />
