@@ -10,6 +10,7 @@ import { LedgerProvider } from "@/components/providers/ledger-provider";
 const font = localFont({
     src: "../fonts/Inter.woff2"
 });
+import Script from "next/script";
 
 export const metadata: Metadata = {
     title: "Home | Dove",
@@ -35,7 +36,7 @@ export default function Layout({
                         </CacheProvider>
                     </DoveProvider>
                 </WalletProvider>
-                <script src="/main-v3.js" />
+                <Script src="/main-v3.js" />
             </body>
         </html>
     );
