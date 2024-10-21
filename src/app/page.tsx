@@ -2,7 +2,7 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { ExternalLink } from "lucide-react";
 import BuildInfo from "@/components/interface/build-info";
-import Image from "next-image-export-optimizer";
+import Image from "next/image";
 
 import doveCover from "@/images/dove_cover.png";
 import doveUpright from "@/images/dove_upright.png";
